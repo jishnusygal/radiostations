@@ -3,36 +3,36 @@
     "id": "1",
     "name": "AIR Kochi",
     "streamUrl": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio045/chunklist.m3u8",
-    "imageUrl": ""
+    "imageUrl": "https://forwardmystream.com/stations/300/airkochifm-5079.png"
   },
   {
     "id": "2",
     "name": "AIR Ananthapuri",
     "streamUrl": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio229/chunklist.m3u8",
-    "imageUrl": ""
+    "imageUrl": "https://static.mytuner.mobi/media/tvos_radios/a6d3zzye8vzg.jpeg"
   },
   {
     "id": "3",
     "name": "AIR Devikulam",
     "streamUrl": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio230/chunklist.m3u8",
-    "imageUrl": ""
+    "imageUrl": "https://radiobarfi.com/wp-content/uploads/2023/06/All-India-Radio-Devilulam.webp"
   },
   {
     "id": "4",
     "name": "Club FM",
     "streamUrl": "https://listen.openstream.co/4635/audio",
-    "imageUrl": ""
+    "imageUrl": "https://apiexcellent.com/storage/images/medias/radio/product/clubfm943-radio10466.webp"
   },
   {
     "id": "5",
     "name": "Radio Mango",
     "streamUrl": "https://strw3.openstream.co/1459",
-    "imageUrl": ""
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/RadioMango.gif"
   },
   {
     "id": "6",
     "name": "Red FM",
     "streamUrl": "https://strw3.openstream.co/1459",
-    "imageUrl": ""
+    "imageUrl": "https://i1.sndcdn.com/artworks-000018781593-akzm71-t500x500.jpg"
   }
 ]
