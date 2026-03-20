@@ -2,37 +2,57 @@
   {
     "id": "1",
     "name": "AIR Kochi",
+    "frequency": "102.3",
+    "location": "Kochi",
     "streamUrl": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio045/chunklist.m3u8",
     "imageUrl": "https://forwardmystream.com/stations/300/airkochifm-5079.png"
   },
   {
     "id": "2",
     "name": "AIR Ananthapuri",
+    "frequency": "101.9",
+    "location": "Thiruvanathapuram",
     "streamUrl": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio229/chunklist.m3u8",
     "imageUrl": "https://static.mytuner.mobi/media/tvos_radios/a6d3zzye8vzg.jpeg"
   },
   {
     "id": "3",
     "name": "AIR Devikulam",
+    "frequency": "101.4",
+    "location": "Devikulam",
     "streamUrl": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio230/chunklist.m3u8",
     "imageUrl": "https://radiobarfi.com/wp-content/uploads/2023/06/All-India-Radio-Devilulam.webp"
   },
   {
     "id": "4",
-    "name": "Club FM",
-    "streamUrl": "https://listen.openstream.co/4635/audio",
-    "imageUrl": "https://imgsvr.radiocut.site/get/crop/center/200/200/radio_logos/c8/37/c837b22c-c1fe-491a-9d76-d32c4c2a3a5f.png"
+    "name": "AIR Rainbow",
+    "frequency": "107.5",
+    "location": "Kochi",
+    "streamUrl": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio044/chunklist.m3u8",
+    "imageUrl": "https://radiobarfi.com/wp-content/uploads/2023/06/All-India-Radio-Devilulam.webp"
   },
   {
     "id": "5",
     "name": "Radio Mango",
+    "frequency": "91.9",
+    "location": "Kochi",
     "streamUrl": "https://strw3.openstream.co/1459",
     "imageUrl": "https://static.wikia.nocookie.net/logopedia/images/b/b5/RadioMango.jpg"
   },
   {
     "id": "6",
-    "name": "Red FM",
+    "name": "Radio Mirchi",
+    "frequency": "98.3",
+    "location": "Kochi",
     "streamUrl": "https://strw3.openstream.co/1459",
+    "imageUrl": "https://static.wikia.nocookie.net/logopedia/images/b/b5/RadioMango.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Red FM",
+    "frequency": "93.5",
+    "location": "Kochi",
+    "streamUrl": "https://stream.zeno.fm/9phrkb1e3v8uv",
     "imageUrl": "https://i1.sndcdn.com/artworks-000018781593-akzm71-t500x500.jpg"
   }
 ]
