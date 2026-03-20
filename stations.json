@@ -5,7 +5,7 @@
     "frequency": "102.3",
     "location": "Kochi",
     "streamUrl": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio045/chunklist.m3u8",
-    "imageUrl": "https://forwardmystream.com/stations/300/airkochifm-5079.png"
+    "imageUrl": "https://raw.githubusercontent.com/jishnusygal/radiostations/refs/heads/main/logos/AIR-Kochi.png"
   },
   {
     "id": "2",
@@ -13,7 +13,7 @@
     "frequency": "101.9",
     "location": "Thiruvanathapuram",
     "streamUrl": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio229/chunklist.m3u8",
-    "imageUrl": "https://static.mytuner.mobi/media/tvos_radios/a6d3zzye8vzg.jpeg"
+    "imageUrl": "https://raw.githubusercontent.com/jishnusygal/radiostations/refs/heads/main/logos/AIR-Anathapuri.png"
   },
   {
     "id": "3",
@@ -21,7 +21,7 @@
     "frequency": "101.4",
     "location": "Devikulam",
     "streamUrl": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio230/chunklist.m3u8",
-    "imageUrl": "https://radiobarfi.com/wp-content/uploads/2023/06/All-India-Radio-Devilulam.webp"
+    "imageUrl": "https://raw.githubusercontent.com/jishnusygal/radiostations/refs/heads/main/logos/AIR-Devikulam.png"
   },
   {
     "id": "4",
@@ -29,7 +29,7 @@
     "frequency": "107.5",
     "location": "Kochi",
     "streamUrl": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio044/chunklist.m3u8",
-    "imageUrl": "https://radiobarfi.com/wp-content/uploads/2023/06/All-India-Radio-Devilulam.webp"
+    "imageUrl": "https://raw.githubusercontent.com/jishnusygal/radiostations/refs/heads/main/logos/AIR-Rainbow-Kochi.png"
   },
   {
     "id": "5",
@@ -45,7 +45,7 @@
     "frequency": "98.3",
     "location": "Kochi",
     "streamUrl": "https://strw3.openstream.co/1459",
-    "imageUrl": "https://static.wikia.nocookie.net/logopedia/images/b/b5/RadioMango.jpg"
+    "imageUrl": "https://raw.githubusercontent.com/jishnusygal/radiostations/refs/heads/main/logos/RadioMirchi.png"
   },
   {
     "id": "7",
