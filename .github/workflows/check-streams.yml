@@ -1,0 +1,49 @@
+name: Check and repair stream URLs
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # every 6 hours
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: check-streams
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check streams and repair broken ones
+        run: python3 scripts/check_streams.py --report report.md
+
+      - name: Commit repaired stations.json
+        run: |
+          if git diff --quiet stations.json; then
+            echo "No changes to stations.json"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add stations.json
+          git commit -m "fix: auto-repair broken stream URLs" -m "$(cat report.md)"
+          git push
+
+      - name: Open an issue for streams that could not be fixed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if grep -q "Still broken" report.md; then
+            title="Broken radio streams need attention"
+            existing=$(gh issue list --state open --search "\"$title\" in:title" --json number --jq '.[0].number')
+            if [ -n "$existing" ]; then
+              gh issue comment "$existing" --body-file report.md
+            else
+              gh issue create --title "$title" --body-file report.md
+            fi
+          fi
